@@ -15,33 +15,9 @@ INCLUDED STYLING IS JUST FOR DEMO PAGE!
 
 */
 
-#logo_container {
-float: left;
-width: 154px;
-margin-top: 3px;
-margin-left: 5px;
-}
-
 body {
 	font-family: arial, sans-serif;
 	background: #f1f1f1;
-}
-
-#banner  {
-	background-image: url('../images/banner2.png');
-	background-repeat: repeat-x;
-	height: 61px;
-}
-
-#middle{
-	background: #fff;
-	box-shadow: 0px 0px 6px #888;
-}
-
-h1{
-	margin-left: 30px;
-	color: #333;
-	background-color: #CCC;
 }
 
 ul{
@@ -66,13 +42,6 @@ p {
 	margin-top: -2px;
 }
 
-#first{
-	padding-top: 25px;
-	padding-bottom: 15px;
-	background-color: #CCC;
-	box-shadow: 0px 0px 6px #000;
-}
-
 .column60{
 	width: 58%;
 }
@@ -85,26 +54,6 @@ p {
 	margin-bottom: 50px;
 }
 
-#center{
-	margin-bottom: 0;
-	margin-left: 70px;
-}
-
-.vid{
-	margin-left: 15px;
-}
-
-.info{
-	color: #666;
-	margin: 0 30px 0 25px;
-}
-
-.name{
-	font-size: 2em;
-	font-weight: bold;
-	border-bottom: dotted #999 1px;
-}
-
 #about,
 #brokers,
 #real-estate,
@@ -114,12 +63,6 @@ p {
 	margin-top: -3px;
 }
 
-/*#bottom{
-	width: 950px;
-	margin: 0 auto;
-	padding: 0px;
-}
-*/
 
 a:link{
 	color: #CCC;
@@ -209,36 +152,13 @@ Custom Attributes if required for each device layout.
 
 
 @media (min-width: 768px) and (max-width: 979px) {
-	.vid{
-		margin-left: 15px;
-		width: 460px;
-		height: 290px;
-	}
+	
 }
 @media (min-width: 480px) and (max-width: 767px) {
-	.vid{
-		margin-left: 100px;
-		width: 525px;
-		height: 315px;
-	}
-
-	.info{
-		margin: 20px 123px 0 100px;
-		padding: 0;
-	}
 	
 	.row:nth-child(n+2){
 		padding: 10px;
 		margin-top: 20px;
-	}
-	
-	h1{
-		font-size: 2em;
-		align: center;
-	}
-	
-	#logo_container{
-		margin-left: 20px;
 	}
 	
 	#flogo{
@@ -263,29 +183,11 @@ Custom Attributes if required for each device layout.
 	
 }
 @media (min-width: 0px) and (max-width: 479px) {
-	h1{
-		font-size: 1.8em;
-		align: center;
-	}
 	
 	p{
 		font-size: 1em;
 		align: right;
 		padding-left: 10px;
-	}
-	
-	#logo_container{
-		margin-left: 10px;
-	}
-	
-	.vid{
-		width: 415px;
-		height: 315px;
-	}
-	
-	.info{
-		margin: 20px 22px 0 15px;
-		padding: 0;
 	}
 	
 	#flogo{
